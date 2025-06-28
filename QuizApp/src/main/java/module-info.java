@@ -1,8 +1,10 @@
-module com.ltt.quizapp {
+module com.dht.quizapp {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.base;
+    requires lombok;
+    requires java.sql;
 
-    opens com.ltt.quizapp to javafx.fxml;
-    exports com.ltt.quizapp;
+    opens com.dht.quizapp to javafx.fxml;
+    exports com.dht.quizapp;
 }
